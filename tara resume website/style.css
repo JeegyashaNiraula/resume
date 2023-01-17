@@ -1,0 +1,92 @@
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.neumorphic-container {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #aaa, -2px -2px 10px #fff;
+    padding: 20px;
+    margin: 20px;
+}
+h1 {
+font-size: 36px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 24px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+h4 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+p {
+font-size: 14px;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+
+ul {
+list-style: none;
+padding-left: 0;
+}
+
+li {
+font-size: 14px;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+
+.neumorphic-text-link {
+    position: relative;
+    color: #3D597F;
+    text-decoration: none;
+    font-size: 14px;
+	padding: 0px 8px;
+}
+
+.neumorphic-text-link:before,
+.neumorphic-text-link:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.neumorphic-text-link:before {
+    box-shadow: inset 2px 2px 10px #aaa;
+}
+
+.neumorphic-text-link:after {
+    box-shadow: inset -2px -2px 10px #fff;
+}
+/* Mobile (max-width: 480px) */
+/* Mobile (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .neumorphic-text {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+/* Tablet (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .neumorphic-text {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
